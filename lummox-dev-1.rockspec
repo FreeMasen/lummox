@@ -10,6 +10,9 @@ description = {
 build = {
    type = "builtin",
    modules = {
-      lummox = "lummox/init.lua"
+      lummox = "lummox/init.lua",
+      ["lummox.document"] = "lummox/document.lua",
+      ["lummox.element"] = "lummox/element.lua",
+      ["lummox.utils"] = "lummox/utils.lua",
    }
 }
